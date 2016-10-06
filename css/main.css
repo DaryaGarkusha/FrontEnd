@@ -1,0 +1,399 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	background-image: url("img/bg.png");
+	
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+
+#wrapper {
+	max-width: 1200px;
+	margin: auto;
+/*	border: 1px solid #fff;*/
+	/*height: 2784px;*/
+	padding-left: 25px;
+}
+header {
+	color: #fff;
+}
+/*1111111111111111111111111111111111111*/
+.topnum {
+	padding-top: 12px;
+	padding-right: 66px;
+	
+}
+.co_img{
+	float: left;
+}
+
+.mainlink {
+	text-align: left;
+	font-family: 'Lobster', cursive;
+	font-size: 33.44px;
+	padding-right: 10px;
+}
+.mainlink span {
+	padding-right: 10px;
+}
+.right {
+	padding-top: 12px;
+	text-align: right;
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
+	float: right;
+	padding-right: 65px;
+	
+}
+
+.right .bigger {
+	font-size: 41.67px;
+}
+.r2 {
+	margin: 0 20px;
+}
+/*2222222222222222222222222222222222222*/
+.net {
+	height: auto;
+	float: right;
+	padding-right: 46px;
+}
+
+
+.net ul li {
+	float: left;
+	padding-right: 20px;
+}
+
+.net ul li a {
+	color: #fff;
+	text-decoration:none;
+	line-height: 64px;
+	display: inline-block;
+	font-family: 'Lobster', cursive;
+}
+.net ul li a:hover {
+	color: red;
+	text-decoration: underline;
+}
+.icon{
+	margin-top: 10px;
+	line-height: 54px;
+}
+.icon li {
+	line-height: 54px;
+}
+
+.between {
+	margin-right: 20px;
+}
+
+/*3333333333333333333333333333333333333333*/
+.mainp {
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	padding: 20px;
+	margin-top: 55px;
+	line-height: 100px;
+}
+.hello {
+	text-align: center;
+	width: 508px;
+	font-family: Calibri;
+	font-size: 20.83px;
+	margin:auto;
+	line-height: 30px;
+}
+.button1 {
+	margin-top: 70px;
+}
+
+/*///////////////services*/
+#services {
+	margin-bottom: 150px;
+}
+.centerService {
+	text-align: center;
+}
+
+#threeServices {
+	width: 100%;
+	height: 200px;
+	
+}
+
+.centerService2 {
+	float: left;
+	margin-top:-35px;
+
+}
+
+.centerService3 {
+	float: left;
+	margin: 0 80px;
+}
+.centerService4{
+	/*text-align: center;*/
+	float: left;
+	margin: 0 75px;
+}
+/*fffffffffffffffffffffffffffffffffooter*/
+
+.icon2 a {
+	color:blue;
+}
+.between {
+	margin-right: 20px;
+}
+
+#cooments{
+	height: 615px;
+
+}
+
+.center {
+	display: block;
+	margin: auto;
+	margin-bottom: 40px;
+}
+.myworks {
+	margin-top: 120px;
+	margin-bottom: 178px;
+}
+
+.slider li img{
+	position: relative;
+	z-index: 0;
+}
+
+.slider li img:hover{
+	content: url(img/work_hover.png);
+	position: relative;
+	z-index: 10;
+
+}
+
+.copyright{
+	float: left;
+	display: block;
+	position: absolute;
+	margin-top: 20px;
+}
+.alignleft {
+	float: left;
+}
+footer a{
+	color: black;
+}
+
+
+.copyright{
+	color: black;
+	margin-bottom: 20px;
+	font-size: 12.5px;
+}
+.footer_num{
+	text-align: right;
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
+	float: right;
+	padding-right: 65px;
+}
+.footer_num .bigger2 {
+	font-size: 41.67px;
+}
+
+
+
+
+
+
+.footer_ul {
+	height: auto;
+	float: left;
+	padding-right: 36px;
+	padding-left: 210px;
+}
+
+
+.footer_ul ul li {
+	float: left;
+	padding-right: 20px;
+
+}
+
+.footer_ul ul li a {
+	color: #000;
+	text-decoration:none;
+	line-height: 64px;
+	display: inline-block;
+	font-size: 16.67px;
+	font-family: 'Lobster', cursive;
+}
+.footer_ul ul li a:hover {
+	color: red;
+	text-decoration: underline;
+}
+.f_icon{
+	margin-top: 10px;
+	line-height: 54px;
+}
+.f_icon li {
+	line-height: 54px;
+}
+
+.between {
+	margin-right: 20px;
+}
+
+.thanks {
+	font-size: 16.67px;
+	padding:  25px 0 0 0 ;
+	
+	font-family: Calibri;
+	line-height: 1.5;
+	width: 870px;display: block;
+}
+}
+.bold {
+	font-weight: bold;
+}
+.co_img{
+
+	margin-right: 50px;
+}
+
+.send_message{
+	clear: both;
+	display: block;
+	height: 419px;
+	width:591px;
+	background-image: url(img/send_fon.png);
+}
+.buttontobottom{
+	position: relative;
+	top:130px;
+	left:40px;
+}
+input {
+	border-radius: 15px;
+	
+}
+#name{
+	position: relative;
+	height:36px;
+	width: 412px;
+	top: 70px;
+	left: 44px;
+}
+
+#comment{
+	position: relative;
+	height:163px;
+	width: 412px;
+	top: 107px;
+	left: 90px;
+	border-radius: 15px;
+	resize: none;
+}
+label {
+	font-family:'Lobster', cursive;
+	color: #fff;
+	font-size: 20.83px; 
+	position: relative;
+}	
+#label_name{
+	position: relative;
+	top:40px;
+	left: 100px;
+
+}
+#label_comment{
+	position:relative;
+	top:117px;
+	left: -365px;
+}
+
+
+.send_zayava{
+	margin-top: 100px;/*ПОТОМ УБРАТЬ*/
+		clear: both;
+	display: block;
+	height: 419px;
+	width:591px;
+	background-image: url(img/fon_zayavka.png);
+}
+.buttontobottom2{
+	position: relative;
+	top:130px;
+	left:40px;
+}
+header{
+	position: relative;
+}
+header:after{
+	content: "";
+	background: red;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+@media screen and (max-width: 999px){
+	header{
+	 color: blue;
+	 font: 16px/19px 'Roboto', Arial, Helvetica, sans-serif;
+	}
+}
